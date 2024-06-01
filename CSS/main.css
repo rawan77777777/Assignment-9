@@ -1,0 +1,40 @@
+body{
+    background-color: #F7ECDE;
+}
+h1{
+    font-family: "Pacifico", cursive;
+    position: relative;
+}
+h1::before{
+    content: "";
+    background-color: #FEC260;
+    width: 210px;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    transition: all 0.5s;
+    z-index: -1;
+}
+h1:hover::before{
+    height: 45px;
+}
+h2{
+    
+  color: #3ca55c ;
+  padding-inline: 10px; 
+    font-family: "Righteous", cursive;
+}
+.border-bottom{
+    border-width: 3px 0px;
+    margin-bottom: 40px;
+    border-color: black;
+    border-style: dotted;
+}
+.input1 label{
+    font-weight: 700;
+    font-size: 20px;
+}
+.input2 label{
+    font-weight: 700;
+    font-size: 20px;
+}
