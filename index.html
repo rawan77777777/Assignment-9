@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Book Mark</title>
     <link rel="icon" href="image/bookmark.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +19,7 @@
             <h1>Bookmarker</h1>
         </div>
         <div>
-        <div class="text-center my-5 ">
+        <div class="text-center icon my-5 ">
             <i class="fa-solid fa-bookmark fs-4"></i><h2 class=" d-inline-block">
                 Bookmark your favorite sites 
             </h2><i class="fa-solid fa-bookmark fs-4"></i>
@@ -37,7 +37,6 @@
                 </label>
                 <input oninput="validationUrl()" type="url" class="form-control" id="bookMarkSite" placeholder="Website URL">
                 <p id="msgUrl" class="alert alert-danger d-none">Invalid link</p>
-
             </div>
             <div class="text-center mt-5">
                 <button onclick="addNew()" type="button" class="px-5 py-2 btn btn-danger">Submit</button>
@@ -58,9 +57,6 @@
             </tbody>
         </table>
     </div>
-
-
-
     <script src="js/index.js"></script>
 </body>
 </html>
